@@ -2,7 +2,7 @@ import os
 import pprint
 import tensorflow as tf
 
-from data import read_data
+from data_util import read_data
 from model import MemN2N
 
 pp = pprint.PrettyPrinter()
